@@ -1,0 +1,9 @@
+{
+  "installDependencies": true,
+  "startCommand": "npm run dev",
+  "env": {
+    "DB_DIALECT": "sqljs",
+    "DATABASE_URL": ":memory:",
+    "ORM_SEED_ON_BOOT": "1"
+  }
+}
