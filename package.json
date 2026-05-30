@@ -13,15 +13,15 @@
     "orm:validate": "mostajs-orm-validator --src ./lib",
     "orm:seed": "tsx scripts/seed.ts"
   },
+  "engines": {
+    "node": ">=18.18.0"
+  },
   "dependencies": {
-    "@mostajs/orm": "^2.4.0",
+    "@mostajs/orm": "^2.5.1",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sql.js": "^1.13.0"
-  },
-  "optionalDependencies": {
-    "better-sqlite3": "^12.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
