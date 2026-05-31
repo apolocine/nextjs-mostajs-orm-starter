@@ -17,7 +17,7 @@
     "node": ">=18.18.0"
   },
   "dependencies": {
-    "@mostajs/orm": "^2.5.1",
+    "@mostajs/orm": "^2.5.3",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
